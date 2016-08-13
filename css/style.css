@@ -1,3 +1,7 @@
+/** {
+  border: 1px solid red;
+}*/
+
 @font-face {
     font-family: "Whitney";
     src: url(../assets/whitney.ttf) format("truetype");
@@ -7,21 +11,35 @@ body {
   font-family: "Whitney", Verdana, Tahoma;
 }
 
+h1, p {
+
+}
+
 .section {
   padding-top: 80px;
   height: 100vh;
   /*width: 100%;*/
 }
 
-.home-splash {
-  color: white;
+.section-title-row {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-h1 {
+.section-title {
   color: black;
   background-color: white;
+  display: inline-block;
+  padding: 24px 12px 0px 12px;
+  /*padding-top: 24px;*/
+  /*padding-bottom: -24px;*/
+}
+
+.home-splash {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #home {
