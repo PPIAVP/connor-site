@@ -1,6 +1,4 @@
-* {
-  /*border: 1px solid red;*/
-}
+/** {border: 1px solid red;}*/
 
 @font-face {
   /* need to add padding-top since font sits slightly above element */
@@ -14,6 +12,7 @@
    margin-right:auto;
    display:center;
 }
+
 body {
   font-family: "Whitney", Verdana, Tahoma;
 }
@@ -59,12 +58,6 @@ h1, p {
   padding: 24px 12px 0px 12px;
   /*padding-top: 24px;*/
   /*padding-bottom: -24px;*/
-}
-
-.home-splash {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #home {
