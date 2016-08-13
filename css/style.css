@@ -26,6 +26,13 @@ h1, p {
   padding: 12px 6px 0px 6px;
 }
 
+.home-nav li:hover {
+  color: white;
+  background-color: black;
+  /*text-decoration: underline;*/
+}
+
+
 .section {
   padding-top: 80px;
   height: 100vh;
