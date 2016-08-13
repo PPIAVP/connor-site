@@ -1,12 +1,19 @@
-/** {
-  border: 1px solid red;
-}*/
-
-@font-face {
-    font-family: "Whitney";
-    src: url(../assets/whitney.ttf) format("truetype");
+* {
+  /*border: 1px solid red;*/
 }
 
+@font-face {
+  /* need to add padding-top since font sits slightly above element */
+  /* 12px for p; 24px for h1 */
+  font-family: "Whitney";
+  src: url(../assets/whitney.ttf) format("truetype");
+}
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:center;
+}
 body {
   font-family: "Whitney", Verdana, Tahoma;
 }
@@ -61,31 +68,26 @@ h1, p {
 }
 
 #home {
-  /*background-color: red;*/
   background: url(../img/chandelier.jpg) center no-repeat;
   background-size: cover;
 }
 
 #about {
-  /*background: orange;*/
   background: url(../img/riostairs.jpg) center no-repeat;
   background-size: cover;
 }
 
 #interests {
-  /*background-color: yellow;*/
   background: url(../img/books.jpg) center no-repeat;
   background-size: cover;
 }
 
 #work {
-  /*background-color: green;*/
   background: url(../img/chiselfie_edit.jpg) center no-repeat;
   background-size: cover;
 }
 
 #contact {
-  /*background-color: blue;*/
   background: url(../img/parisart.jpg) center no-repeat;
   background-size: cover;
 }
