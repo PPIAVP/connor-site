@@ -1,0 +1,32 @@
+.section {
+  padding-top: 80px;
+  height: 100vh;
+  /*width: 100%;*/
+}
+
+.home-splash {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home {
+  background-color: red;
+  /*background-image: url("/img/picture1.jpg");*/
+}
+
+#about {
+  background: orange;
+}
+
+#interests {
+  background-color: yellow;
+}
+
+#work {
+  background-color: green;
+}
+
+#contact {
+  background-color: blue;
+}
