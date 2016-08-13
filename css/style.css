@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Whitney";
+    src: url(../assets/whitney.ttf) format("truetype");
+}
+
+body {
+  font-family: "Whitney", Verdana, Tahoma;
+}
 
 .section {
   padding-top: 80px;
