@@ -15,6 +15,17 @@ h1, p {
 
 }
 
+.home-nav {
+  overflow: hidden;
+}
+
+.home-nav li {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  padding: 12px 6px 0px 6px;
+}
+
 .section {
   padding-top: 80px;
   height: 100vh;
