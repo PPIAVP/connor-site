@@ -3,8 +3,10 @@
 @font-face {
   /* need to add padding-top since font sits slightly above element */
   /* 12px for p; 24px for h1 */
-  font-family: "Whitney";
-  src: url(../assets/whitney.ttf) format("truetype");
+  font-family: 'Whitney';
+  src: url(../assets/whitney.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .center-block {
@@ -14,7 +16,8 @@
 }
 
 body {
-  font-family: "Whitney", Verdana, Tahoma;
+  /*font-family: 'Whitney', Verdana, Tahoma;*/
+  font-family: 'Century Gothic', sans-serif;;
 }
 
 .home-nav {
@@ -25,7 +28,7 @@ body {
   display: inline-block;
   color: black;
   background-color: white;
-  padding: 12px 6px 0px 6px;
+  padding: 6px 6px 6px 6px;
 }
 
 .home-nav li:hover {
@@ -51,9 +54,7 @@ body {
   color: black;
   background-color: white;
   display: inline-block;
-  padding: 24px 12px 0px 12px;
-  /*padding-top: 24px;*/
-  /*padding-bottom: -24px;*/
+  padding: 12px 12px 12px 12px;
 }
 
 #home {
