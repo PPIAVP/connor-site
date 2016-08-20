@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+.wrap-bg {
+  display: block;
+}
+
 .white-bg {
   background-color: white;
 }
