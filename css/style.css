@@ -111,9 +111,9 @@ body {
   }
 
   #experience {
-    background: url(../img/chiselfie_edit.jpg) center no-repeat;
-    /*background-size: cover;*/
-    background-position: -150px -890px;
+    background: url(../img/chiselfie_edit.jpg) center;
+    background-size: cover;
+    background-position: 0px -610px;
   }
 
   #contact {
