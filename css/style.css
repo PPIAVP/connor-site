@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+.white-bg {
+  background-color: white;
+}
+
 .center-block {
    margin-left:auto;
    margin-right:auto;
