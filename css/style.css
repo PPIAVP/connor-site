@@ -9,18 +9,17 @@
   font-style: normal;
 }
 
-.wrap-bg {
-  display: block;
-}
-
-.white-bg {
-  background-color: white;
-}
-
 .center-block {
    margin-left:auto;
    margin-right:auto;
    display:center;
+}
+
+.content-line {
+  background-color: white;
+  display: inline-block;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 body {
