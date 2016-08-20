@@ -72,6 +72,7 @@ body {
 #about {
   background: url(../img/riostairs.jpg) center no-repeat;
   background-size: cover;
+  background-position: -400px 0px;
 }
 
 #interests {
@@ -79,12 +80,55 @@ body {
   background-size: cover;
 }
 
-#work {
-  background: url(../img/chiselfie_edit.jpg) center no-repeat;
-  background-size: cover;
+#experience {
+  background: url(../img/chiselfie_edit_1.jpg) center no-repeat;
+  /*background-size: cover;*/
+  background-position: 0px -680px;
 }
 
 #contact {
   background: url(../img/parisart.jpg) center no-repeat;
   background-size: cover;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #home {
+    background: url(../img/chandelier.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  #about {
+    background: url(../img/riostairs.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  #interests {
+    background: url(../img/books.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  #experience {
+    background: url(../img/chiselfie_edit.jpg) center no-repeat;
+    /*background-size: cover;*/
+    background-position: 0px -680px;
+  }
+
+  #contact {
+    background: url(../img/parisart.jpg) center no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
