@@ -103,6 +103,7 @@ body {
   #about {
     background: url(../img/riostairs.jpg) center no-repeat;
     background-size: cover;
+    background-position: -500px 0px;
   }
 
   #interests {
@@ -111,9 +112,9 @@ body {
   }
 
   #experience {
-    background: url(../img/chiselfie_edit.jpg) center;
+    background: url(../img/chiselfie_edit.jpg) center no-repeat;
     background-size: cover;
-    background-position: 0px -610px;
+    /*background-position: 0px -350px;*/
   }
 
   #contact {
@@ -124,10 +125,18 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  #experience {
+    background: url(../img/chiselfie_edit.jpg) center no-repeat;
+    background-size: cover;
+    background-position: 0px -285px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  #experience {
+    background: url(../img/chiselfie_edit.jpg) center no-repeat;
+    background-size: cover;
+    background-position: 0px -650px;
+  }
 }
